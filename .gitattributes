@@ -1,1 +1,2 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
+ThirdParty/OpenJDK/17.0.1/Windows/x64/lib/modules filter=lfs diff=lfs merge=lfs -text
