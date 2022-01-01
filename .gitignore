@@ -18,10 +18,11 @@
 /ThirdParty/JS-V8/cmake_install.cmake
 /ThirdParty/pybind11/.github
 
-/ThirdParty
+# /ThirdParty
 /ThirdParty/_CMake
+/ThirdParty/CMake
 /ThirdParty/JS-V8
-/ThirdParty/Julia
+# /ThirdParty/Julia
 /ThirdParty/Lua*
 /ThirdParty/Mono
 /ThirdParty/OpenJDK
