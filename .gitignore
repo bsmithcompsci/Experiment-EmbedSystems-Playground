@@ -19,9 +19,9 @@
 /ThirdParty/pybind11/.github
 
 # /ThirdParty
-/ThirdParty/_CMake
-/ThirdParty/CMake
-/ThirdParty/JS-V8
+# /ThirdParty/_CMake
+# /ThirdParty/CMake
+# /ThirdParty/JS-V8
 # /ThirdParty/Julia
 /ThirdParty/Lua*
 /ThirdParty/Mono

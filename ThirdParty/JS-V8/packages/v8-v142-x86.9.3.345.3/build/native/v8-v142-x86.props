@@ -1,0 +1,17 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup Condition="'$(PlatformToolset)' == 'v142' And ('$(Platform)' == 'x86' Or '$(Platform)' == 'Win32')">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      
+	<PreprocessorDefinitions Condition="'$(Configuration)' == 'Debug'">V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+	
+	<PreprocessorDefinitions Condition="'$(Configuration)' == 'Release'">;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+	
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)..\..\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>v8.dll.lib;v8_libbase.dll.lib;v8_libplatform.dll.lib;dbghelp.lib;shlwapi.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="Exists('zlib.dll.lib')">zlib.dll.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>
