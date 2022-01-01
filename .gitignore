@@ -24,7 +24,7 @@
 # /ThirdParty/JS-V8
 # /ThirdParty/Julia
 # /ThirdParty/Lua*
-/ThirdParty/Mono
+# /ThirdParty/Mono
 /ThirdParty/OpenJDK
 # /ThirdParty/py*
 
