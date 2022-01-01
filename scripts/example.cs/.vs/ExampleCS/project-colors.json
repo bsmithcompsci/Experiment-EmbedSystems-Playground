@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bfbc8cc9-1201-444c-930e-c7ef87e4c385": {
+      "ProjectGuid": "bfbc8cc9-1201-444c-930e-c7ef87e4c385",
+      "DisplayName": "ExampleCS",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

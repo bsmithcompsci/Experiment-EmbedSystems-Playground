@@ -1,0 +1,6 @@
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\bin\Debug\ExampleCS.dll
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\bin\Debug\ExampleCS.pdb
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\obj\Debug\ExampleCS.csproj.CoreCompileInputs.cache
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\obj\Debug\ExampleCS.dll
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\obj\Debug\ExampleCS.pdb
+D:\Workspace\Cpp\Embed-Systems\scripts\example.cs\obj\Debug\ExampleCS.csproj.AssemblyReference.cache
