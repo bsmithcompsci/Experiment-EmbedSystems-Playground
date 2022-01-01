@@ -23,10 +23,10 @@
 # /ThirdParty/CMake
 # /ThirdParty/JS-V8
 # /ThirdParty/Julia
-/ThirdParty/Lua*
+# /ThirdParty/Lua*
 /ThirdParty/Mono
 /ThirdParty/OpenJDK
-/ThirdParty/py*
+# /ThirdParty/py*
 
 /scripts/**/bin/**/*.class
 /scripts/**/.metadata
