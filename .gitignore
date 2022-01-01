@@ -25,7 +25,7 @@
 # /ThirdParty/Julia
 # /ThirdParty/Lua*
 # /ThirdParty/Mono
-/ThirdParty/OpenJDK
+# /ThirdParty/OpenJDK
 # /ThirdParty/py*
 
 /scripts/**/bin/**/*.class
